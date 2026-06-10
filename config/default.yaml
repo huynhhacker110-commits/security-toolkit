@@ -1,0 +1,27 @@
+# Security Toolkit Configuration
+
+red_team:
+  scanner:
+    timeout: 300
+    max_threads: 10
+    retry_count: 3
+  
+  exploits:
+    enabled: true
+    safe_mode: true
+    auto_execute: false
+
+blue_team:
+  monitor:
+    check_interval: 5
+    alert_threshold: 0.7
+    log_retention_days: 30
+  
+  reporting:
+    format: 'html'
+    include_recommendations: true
+
+general:
+  verbose: false
+  log_level: 'INFO'
+  output_dir: './reports'

@@ -1,0 +1,30 @@
+# Core Dependencies
+scapy==2.5.0
+nmap==0.0.1
+python-nmap==0.7.1
+requests==2.31.0
+paramiko==3.3.1
+
+# Vulnerability Detection
+cvepy==1.0.2
+shodan==1.31.3
+
+# Data Processing
+pandas==2.0.0
+numpy==1.24.0
+
+# Web Scanning
+beautifulsoup4==4.12.0
+selenium==4.15.0
+
+# Reporting
+jinja2==3.1.2
+reportlab==4.0.0
+
+# Utilities
+colorama==0.4.6
+click==8.1.7
+pyaml==23.12.1
+
+# Testing
+pytest==7.4.0
